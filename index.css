@@ -1,0 +1,214 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  background-image: url("../You\ Should\ Be\ Running/images/HeroImage@2x.jpg");
+  /* Set a specific height */
+  height: 60%;
+  width: auto;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 50px 30px 50px 30px; 
+} 
+
+.hero-text {
+  text-align:left;
+  position:absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 96px;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-rows: 92px 92px 92px 92px;
+}
+
+.hero-content {
+  display: inline-grid;
+}
+
+.hero-rectangle {
+  position: relative;
+  top: -140%;
+  left: -4%;
+  z-index: -1;
+}
+
+#hero-rectangle-1 {
+  height: 70px;
+  width: 125px;
+  background-color: #352C1D;
+}
+
+#hero-rectangle-2 {
+  height: 70px;
+  width: 255px;
+  background-color: #352C1D;
+}
+
+#hero-rectangle-3 {
+  height: 70px;
+  width: 86px;
+  background-color: #352C1D;
+}
+
+#hero-rectangle-4 {
+  height: 70px;
+  width: 284px;
+  background-color: #352C1D;
+}
+
+.menu-container {
+  position: absolute;
+  top: 0%;
+  left: 80%;
+  display: grid;
+  grid-template-rows: 27px 27px 27px 27px;
+  list-style-type: none;
+  margin-top: 40px;
+  width: 200px;
+  height: 100%;
+}
+
+#menu-text {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 23px;
+  z-index: 2;
+}
+
+#menu-home:hover {
+  font-size: 105%; 
+  transition: .3s ease-in-out;
+}
+
+#menu-running:hover {
+  font-size: 105%; 
+  transition: .3s ease-in-out;
+}
+
+#menu-music:hover {
+  font-size: 105%; 
+  transition: .3s ease-in-out;
+}
+
+.menu-block {
+  position: relative;
+  top: -90%;
+  left: 22%;
+  height: 20px;
+  z-index: -1;
+  transition: .5s ease-in-out;
+}
+
+#menu-block-1 {
+  width: 45px;
+}
+
+#menu-block-2 {
+  width: 70px;
+}
+
+#menu-block-3 {
+  width: 50px;
+}
+
+#menu-home:hover .menu-block{
+ background-color: #352C1D;
+ transform: translate(-50px,0)
+}
+
+#menu-running:hover .menu-block{
+  background-color: #352C1D;
+  transform: translate(-50px,0)
+ }
+
+ #menu-music:hover .menu-block{
+  background-color: #352C1D;
+  transform: translate(-50px,0)
+ }
+  
+  
+#yellowblock-1{
+  position: relative;
+  background-size: cover;
+  background-color: #FFF2A8;
+  max-width: 1190px;
+  height: 320px;
+  margin: 75px 30px 50px 30px; 
+  left: 188px;
+}
+
+.mountainGuy-style {
+  width: 450px; /* width of container */
+  height: 350px; /* height of container */
+  object-fit: cover;
+  object-position: 0px -220px; /* try 20px 10px */ 
+}
+
+#mountainGuy-position {
+  position: absolute;
+  top: 25px;
+  left: 2%;
+  margin-left: 30px;
+  z-index: 1;
+}
+
+.h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 65px;
+}
+
+#mg-header {
+  position: relative;
+  left: 33.5%;
+  top: 40px;
+  z-index: 2;
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 100%;
+  padding: 20px;
+}
+
+.mg-container {
+  display: grid;
+  grid-template-columns: 510px auto;
+  border: 5px solid black;
+}
+
+.mg-containger > div {
+  border: 5px solid black;
+}
+
+.container-padding {
+  padding: 20px 0;
+}
+
+.button {
+  height: 30px;
+  width: 60px;
+  background-color: #352C1D;
+}
+
+#button-position {
+  text-align: center;
+  justify-content: center;
+  vertical-align: auto;
+
+}
+
+.border {
+  border: 5px solid black;
+}
