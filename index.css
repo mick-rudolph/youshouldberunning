@@ -197,16 +197,12 @@ body, html {
 }
 
 .button {
-  height: 30px;
-  width: 60px;
+  padding: 20px;
   background-color: #352C1D;
 }
 
 #button-position {
-  text-align: center;
-  justify-content: center;
-  vertical-align: auto;
-
+  margin: 0 auto;
 }
 
 .border {
